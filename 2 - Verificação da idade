@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Verificação da idade</title>
+
+</head>
+
+<body>
+
+    <script>
+
+        var nome = prompt('Digite seu nome: ');
+
+
+        var idade = prompt('Digite sua idade: ');
+
+
+
+        document.write('<h3> Bem vindo, ' + nome + '!</h3>');
+
+
+
+        if (idade >= 18 && idade <= 64) {
+
+            document.write("Tá liberado!! Hehehe");
+
+        }
+
+
+
+        else if (idade < 18) {
+
+            document.write('en, en, foi triste -_- ');
+
+        }
+
+        
+
+        else if (idade >= 65) {
+
+            document.write('Cuidadooo, please');
+
+        }
+
+
+
+        else {   
+
+            document.write('Digite sua IDADEE!');
+
+        }
+
+    </script>
+
+</body>
+
+</html>
