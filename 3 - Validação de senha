@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> Validação da senha</title>
+
+</head>
+
+<body>
+
+    <script>
+
+        const senha = 'Allana123';
+
+        const usuário = 'AllanaGabrielly';
+
+
+
+        use = prompt ('Digite seu usuário:');
+
+
+        pass = prompt ('Digite sua senha: ');
+
+
+
+        if (use == usuário && pass == senha){
+
+            document.write ('acesso permitido');
+
+        }
+
+        
+
+        else{
+
+            document.write('Usuário ou senha incorreta');
+
+        }
+
+    </script>
+
+</body>
+
+</html>
